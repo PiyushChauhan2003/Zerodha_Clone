@@ -50,7 +50,12 @@ app.use(cookieParser());
 // Authentication Routes
 app.use("/auth", authRoutes);
 
-// Protected User Routes: Holdings, Positions, Orders
+
+
+app.get("/", (req, res) => {
+  res.send("Zerodha Clone Backend API is live and working!");
+});
+
 app.get("/allHoldings", authenticateUser, async (req, res) => {
   try {
     const allHoldings = await HoldingsModel.find({});
