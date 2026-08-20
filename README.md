@@ -10,9 +10,9 @@ funds, and interactive charts.
 
 ## 🚀 Live Demo
 
-- **Frontend:** https://zerodha-frontend-6o7k.onrender.com
-- **Dashboard:** https://zerodha-dashboard-e74d.onrender.com
-- **Backend API:** https://zerodha-clone-p79o.onrender.com
+- **Frontend:** https://zerodha-clone-frontend-ow9l.onrender.com
+- **Dashboard:** https://zerodha-clone-dashboard-0r3r.onrender.com
+- **Backend API:** https://zerodha-clone-backend-864o.onrender.com
 
 ---
 
