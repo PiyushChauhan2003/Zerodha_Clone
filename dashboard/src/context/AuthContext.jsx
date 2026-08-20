@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:3002";
+const API_BASE_URL = "https://zerodha-clone-backend-864o.onrender.com";
 axios.defaults.withCredentials = true;
 
 const parseJwt = (token) => {
@@ -141,7 +141,7 @@ export const AuthProvider = ({ children }) => {
       localStorage.removeItem("user");
       localStorage.removeItem("token");
       delete axios.defaults.headers.common["Authorization"];
-      window.location.href = "http://localhost:5173/login";
+      window.location.href = "https://zerodha-clone-frontend-ow9l.onrender.com/login";
     }
   };
 

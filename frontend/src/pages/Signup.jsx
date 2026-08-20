@@ -26,8 +26,8 @@ const Signup = () => {
 
       setTimeout(() => {
         window.location.href = token
-          ? `http://localhost:5174?token=${token}`
-          : "http://localhost:5174";
+          ? `https://zerodha-clone-dashboard-0r3r.onrender.com?token=${token}`
+          : "https://zerodha-clone-dashboard-0r3r.onrender.com";
       }, 800);
     } catch (err) {
       setError(
