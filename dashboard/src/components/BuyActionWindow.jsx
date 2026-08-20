@@ -17,7 +17,7 @@ const BuyActionWindow = ({ uid }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       await axios.post(
-        "http://localhost:3002/newOrder",
+        "https://zerodha-clone-p79o.onrender.com/newOrder",
         {
           name: uid,
           qty: Number(stockQuantity),

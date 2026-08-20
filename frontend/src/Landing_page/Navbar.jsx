@@ -37,7 +37,7 @@ function Navbar() {
                   <li className="nav-item">
                     <a
                       className="nav-link active fw-semibold text-primary"
-                      href="http://localhost:5174"
+                      href="https://zerodha-dashboard-e74d.onrender.com"
                     >
                       Dashboard
                     </a>

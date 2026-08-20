@@ -14,7 +14,7 @@ const ProtectedRoute = ({ children }) => {
 
   if (!user) {
     // If not authenticated, redirect to the login page on frontend
-    window.location.href = "http://localhost:5173/login";
+    window.location.href = "https://zerodha-frontend-6o7k.onrender.com";
     return null;
   }
 
