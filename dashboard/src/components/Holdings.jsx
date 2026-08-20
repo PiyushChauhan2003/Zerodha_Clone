@@ -10,7 +10,7 @@ const Holdings = () => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
     axios
-      .get("https://zerodha-clone-p79o.onrender.com/allHoldings", {
+      .get("http://localhost:3002/allHoldings", {
         headers,
         withCredentials: true,
       })

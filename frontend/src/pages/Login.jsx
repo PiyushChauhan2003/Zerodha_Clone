@@ -22,8 +22,8 @@ const Login = () => {
       
       // Directly redirect to dashboard
       window.location.href = token
-        ? `https://zerodha-dashboard-e74d.onrender.com?token=${token}`
-        : "https://zerodha-dashboard-e74d.onrender.com";
+        ? `http://localhost:5174?token=${token}`
+        : "http://localhost:5174";
     } catch (err) {
       setError(
         err.response?.data?.message ||
